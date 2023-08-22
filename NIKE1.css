@@ -1,0 +1,257 @@
+@charset "Utf-8";
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat sans-serif;
+    background-color: #161821;   
+    background-image: url(shadow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.navigation-container{
+    position:absolute;
+    width: 100%;
+    padding:100px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+
+}
+
+.logo img{
+    height: 60px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.menu-left{
+    float: left;
+    margin: 10px 50px;
+}
+
+.menu-right{
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0px 20px;
+    display: flex;
+}
+
+menu ul li a{
+    display: block;
+    margin: 10px 25px;
+    text-decoration: none;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 25px;
+}
+
+.search-box{
+    height: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    margin: 10px 50px;
+    background-color: transparent;
+}
+
+input[type=search]{
+    background-color: transparent;
+    width: 170px;
+    border: none;
+    outline:none;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*======================================================*/
+
+
+a:hover{
+    font-size: 125%;
+    box-shadow: purple;
+}
+#navbar1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.logo1{
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+    height: 50px;
+    width: 80px;
+    margin-left: 60px;
+}
+
+.logo2{
+    height: 20px;
+    width: 40px;
+    margin-left: 60px;
+    height: 90px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.margin{
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+    justify-content: flex-end;
+}
+
+/*========       Style for navbar2     ==================*/
+
+#navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    color: white;
+
+}
+
+#navbar2-links{
+    width:60%;
+    margin-left:0px;
+}
+
+
+#navbar2-logo,  #Search-links{
+    width: 33%;
+
+   
+}
+
+#navbar2-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+#navbar2-links :hover{
+    transform: scale(1.0);
+    font-size: 1.5rem;
+    color: palevioletred;
+}
+
+
+/*========         Style for navbar3      =============*/
+
+#navbar3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+/*overrriding the defaulf margin of h4 and h6*/
+#navbar3 h1, 
+#navabar3 h4{
+    margin: 0;
+}
+
+/*====          MAIN BODY              ===*/
+.slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/*======       BODY TEXT FORMATTING     ========*/
+.slider-box{
+    margin: 80px;
+    display: block;
+    justify-content: space-between;
+}
+
+.slider-text{
+    flex-basis: 400px;
+    color: #ffffff
+}
+
+.slider-text p{
+    color: rgba(110, 105, 105, 1.00);
+    line-height: 20px;
+}
+
+h6{
+    font-size: 15px;
+    word-spacing: 5px;
+    color: #dc721f;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    font-size: 50px;
+    word-spacing: -2px;
+}
+
+
+/*=====              MAIN IMAGE                  =====*/
+.slider-img{
+    height: 450px;
+
+}
+
+.slider-img img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+/*============           BUTTONS                  =====*/
+
+.ct{
+    display: flex;   
+}
+
+.ct select{
+    width: 90px;
+    height: 40px;
+    border: 2px solid #828282;
+    box-sizing: border-box;
+    color:white;
+    outline: none;
+    margin-right: 20px;
+    margin-left: 0px;
+    background-color: transparent;
+
+}
+
+.ct option{
+    color: black;
+    text-align: center;
+}
+
+.ct a{
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    border: 2px solid #dc721f;
+    color: #dc721f;
+    height: 40px;
+    width: 90px;
+    box-sizing: border-box;
+}
